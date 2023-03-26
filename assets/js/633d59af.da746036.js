@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[2906],{9620:i=>{i.exports=JSON.parse('{"label":"microservices","permalink":"/dodalovic.github.io/blog/tags/microservices","allTagsPath":"/dodalovic.github.io/blog/tags","count":1}')}}]);

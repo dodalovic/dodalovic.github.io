@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[3024],{6300:o=>{o.exports=JSON.parse('{"label":"mongodb","permalink":"/blog/tags/mongodb","allTagsPath":"/blog/tags","count":3}')}}]);

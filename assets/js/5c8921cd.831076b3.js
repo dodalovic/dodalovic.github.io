@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[4918],{1044:a=>{a.exports=JSON.parse('{"label":"rest-api","permalink":"/dodalovic.github.io/blog/tags/rest-api","allTagsPath":"/dodalovic.github.io/blog/tags","count":1}')}}]);

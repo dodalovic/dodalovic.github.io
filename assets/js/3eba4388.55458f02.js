@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[4722],{2780:o=>{o.exports=JSON.parse('{"permalink":"/dodalovic.github.io/blog/tags/intellij","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

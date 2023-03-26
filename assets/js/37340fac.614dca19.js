@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[6960],{7847:o=>{o.exports=JSON.parse('{"label":"spring-boot","permalink":"/dodalovic.github.io/blog/tags/spring-boot","allTagsPath":"/dodalovic.github.io/blog/tags","count":8}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[2718],{3174:a=>{a.exports=JSON.parse('{"label":"async","permalink":"/dodalovic.github.io/blog/tags/async","allTagsPath":"/dodalovic.github.io/blog/tags","count":1}')}}]);

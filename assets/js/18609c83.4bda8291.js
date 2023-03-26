@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[3561],{6086:o=>{o.exports=JSON.parse('{"label":"docker","permalink":"/dodalovic.github.io/blog/tags/docker","allTagsPath":"/dodalovic.github.io/blog/tags","count":1}')}}]);

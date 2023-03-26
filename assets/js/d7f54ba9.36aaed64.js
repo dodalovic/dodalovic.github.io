@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[788],{4688:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/technology","page":1,"postsPerPage":10,"totalPages":4,"totalCount":37,"nextPage":"/blog/tags/technology/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
