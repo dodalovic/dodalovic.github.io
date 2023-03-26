@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        I've been working for 13 years in software engineering. I've been busy with Kotlin, Java, PHP, Golang. You can get my CV <u><Link to="/resume-dusan-odalovic.pdf">here</Link></u>
+        I've been working for 13 years in software engineering. I've been busy with Kotlin, Java, PHP, Golang. You can get my CV <u><Link target="_blank" to="/resume-dusan-odalovic.pdf">here</Link></u>
       </>
     ),
   },
