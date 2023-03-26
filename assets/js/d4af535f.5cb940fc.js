@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[9225],{6549:o=>{o.exports=JSON.parse('{"permalink":"/dodalovic.github.io/blog/tags/kotlin","page":1,"postsPerPage":10,"totalPages":1,"totalCount":10,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[9469],{8403:o=>{o.exports=JSON.parse('{"label":"technology","permalink":"/dodalovic.github.io/blog/tags/technology","allTagsPath":"/dodalovic.github.io/blog/tags","count":37}')}}]);

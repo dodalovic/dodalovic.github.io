@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdodalovic_github_io=self.webpackChunkdodalovic_github_io||[]).push([[4806],{2414:o=>{o.exports=JSON.parse('{"label":"open-source","permalink":"/dodalovic.github.io/blog/tags/open-source","allTagsPath":"/dodalovic.github.io/blog/tags","count":2}')}}]);
