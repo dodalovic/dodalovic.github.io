@@ -1,0 +1,110 @@
+---
+title: Using regular expressions for querying Mongodb documents
+authors: [dodalovic]
+tags: [technology, mongodb]
+---
+
+Ladies and gents, here’s one fairly short hint for anyone wondering how to query documents in `Mongodb`
+using regular expressions. Let’s get straight to the point:
+
+<!--truncate-->
+
+Let’s start by inserting couple of documents (using `Mongodb` shell) which we’ll use for querying
+afterwards:
+
+```javascript
+db.developers.insertMany([
+  { name: "John", languages: ["java", "php", "javascript"] },
+  { name: "Johnny", languages: ["java", "c", "c++"] },
+  { name: "Jim", languages: ["node", "java"] }
+]);
+```
+
+Now, when we run the following command in shell:
+
+```javascript
+db.developers.find();
+```
+
+Command output confirms all test documents are successfully stored:
+
+```json
+{
+    "_id" : ObjectId("587e6ec738cbd11c2dc46932"),
+    "name" : "John",
+    "languages" : [
+        "java",
+        "php",
+        "javascript"
+    ]
+}
+{
+    "_id" : ObjectId("587e6ec738cbd11c2dc46933"),
+    "name" : "Johnny",
+    "languages" : [
+        "java",
+        "c",
+        "c++"
+    ]
+}
+{
+    "_id" : ObjectId("587e6ec738cbd11c2dc46934"),
+    "name" : "Jim",
+    "languages" : [
+        "node",
+        "java"
+    ]
+}
+```
+
+Now, say you want to find all documents that have field name starting with some particular value,
+let’s say "Joh". The way to do is pretty straightforward:
+
+```javascript
+db.developers.find({ name: { $regex: /^Joh.*/ } }).pretty();
+```
+
+Command output confirms we matched correct document(s):
+
+```json
+{
+    "_id" : ObjectId("587e6ec738cbd11c2dc46932"),
+    "name" : "John",
+    "languages" : [
+        "java",
+        "php",
+        "javascript"
+    ]
+}
+{
+    "_id" : ObjectId("587e6ec738cbd11c2dc46933"),
+    "name" : "Johnny",
+    "languages" : [
+        "java",
+        "c",
+        "c++"
+    ]
+}
+```
+
+We could also try matching documents having some field ending with particular value, let’s say
+"im", just by doing something like:
+
+```javascript
+db.developers.find({ name: { $regex: /^.*im$/ } }).pretty();
+```
+
+which would match "Jim" in our case:
+
+```json
+{
+  "_id": ObjectId("587e6ec738cbd11c2dc46934"),
+  "name": "Jim",
+  "languages": ["node", "java"]
+}
+```
+
+Regular expressions are sometimes the only way to go for particular problem sets, so I hope this
+helps to understand mongodb `API`s dealing with regular expressions.
+
+That was all for today! Hope you liked it!
