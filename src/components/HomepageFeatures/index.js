@@ -2,14 +2,15 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Link from "@docusaurus/Link";
-
 const FeatureList = [
   {
     title: 'About me',
     Svg: require('@site/static/img/undraw_profile.svg').default,
     description: (
       <>
-        My name is Dusan Odalovic. I like software engineering, clean code, and designing backends targeting cloud
+        My name is Dusan Odalovic. I live in Berlin, Germany.<br/>
+        I like software engineering, clean code, and designing backends targeting cloud. <br/>
+        Read my <u><Link to="/blog">Blog</Link></u>
       </>
     ),
   },
@@ -18,7 +19,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_resume.svg').default,
     description: (
       <>
-        I've been working for 13 years in software engineering. I've been busy with Kotlin, Java, PostgreSQL, GitHub Actions, Golang, and more. You can get my CV <u><Link target="_blank" to="/resume-dusan-odalovic.pdf">here</Link></u>
+        I've been working for 13 years in software engineering. I've been busy with Kotlin, Java, PostgreSQL, GitHub Actions, Golang, and more.<br/>
+          Download my <u><Link target="_blank" to="/resume-dusan-odalovic.pdf">CV</Link></u>
       </>
     ),
   },
