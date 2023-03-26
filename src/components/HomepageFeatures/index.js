@@ -6,25 +6,25 @@ import Link from "@docusaurus/Link";
 const FeatureList = [
   {
     title: 'About me',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_profile.svg').default,
     description: (
       <>
-        My name is Dusan Odalovic. I like software engineering, clean code and designing backends targeting cloud
+        My name is Dusan Odalovic. I like software engineering, clean code, and designing backends targeting cloud
       </>
     ),
   },
   {
     title: 'How can I help you?',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_resume.svg').default,
     description: (
       <>
-        I've been working for 13 years in software engineering. I've been busy with Kotlin, Java, PHP, Golang. You can get my CV <u><Link target="_blank" to="/resume-dusan-odalovic.pdf">here</Link></u>
+        I've been working for 13 years in software engineering. I've been busy with Kotlin, Java, PostgreSQL, GitHub Actions, Golang, and more. You can get my CV <u><Link target="_blank" to="/resume-dusan-odalovic.pdf">here</Link></u>
       </>
     ),
   },
   {
     title: 'How to get in touch?',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_mailbox.svg').default,
     description: (
       <>
         dodalovic@gmail.com
