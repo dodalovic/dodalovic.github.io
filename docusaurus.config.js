@@ -69,6 +69,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      zoom: {},
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -107,6 +108,7 @@ const config = {
         darkTheme: require('prism-react-renderer/themes/palenight'),
       },
     }),
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")]
 };
 
 module.exports = config;
