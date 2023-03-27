@@ -49,6 +49,8 @@ const config = {
               `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
         blog: {
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+              defaultReadingTime({content, options: {wordsPerMinute: 130}}),
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
